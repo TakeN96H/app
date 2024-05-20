@@ -3,6 +3,7 @@ import sys
 import os
 path = os.path.dirname(__file__);sys.path.append(path)
 
+#変更店を作成する
 
 #pycatchがウザいので生成停止
 from sys import dont_write_bytecode;dont_write_bytecode = True
@@ -11,7 +12,6 @@ from sys import dont_write_bytecode;dont_write_bytecode = True
 
 import json
 from datetime import datetime
-from subprocess import run as subpro_run
 
 
 #data.jsonをロードして辞書型を返す魔法
